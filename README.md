@@ -5,6 +5,7 @@ The PrescriptionManager contract manages prescriptions and user roles on the blo
 Test Parameters:
 
 -------registerUser -------------
+
 (Doctor)
 _id: 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
 _role: 0
