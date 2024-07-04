@@ -89,12 +89,6 @@ contract PrescriptionManager {
         }
     }
 
-    function addMedicine(uint _prescriptionId, Medicine memory _medicine) public onlyDoctor {
-        Prescription storage prescription = prescriptions[_prescriptionId];
-        require(prescription.isActive, "Prescription is not active");
-        prescription.medicines.push(_medicine);
-    }
-
     function deactivatePrescription(uint _prescriptionId) public onlyDoctor {
         prescriptions[_prescriptionId].isActive = false;
     }
