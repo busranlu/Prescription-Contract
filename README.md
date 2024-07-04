@@ -1,5 +1,5 @@
 # Prescription-Contract
-The PrescriptionManager contract manages prescriptions and user roles on the blockchain. It allows for registration of users with different roles (Doctor, Patient, Pharmacy), and enables doctors to create prescriptions for patients. Patients and pharmacies can view these prescriptions, while only doctors can modify them.This contract facilitates secure and transparent management of medical prescriptions on the blockchain, ensuring that only authorized users can perform specific actions based on their roles.
+The PrescriptionManager contract manages prescriptions and user roles on the blockchain. It allows for registration of users with different roles (Doctor, Patient, Pharmacy), and enables doctors to create prescriptions for patients. Patients and pharmacies can view these prescriptions, while only doctors can modify them. This contract facilitates secure and transparent management of medical prescriptions on the blockchain, ensuring that only authorized users can perform specific actions based on their roles.
 
 ////////////////////////////////////////////
 Test Parameters:
